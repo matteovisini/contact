@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Karelia;
+  src: url('assets/KareliaTrial-Outtakes.otf');
+}
+
+@font-face{
+  font-family: px-grotesk;
+  src: url('assets/Px-Grotesk-Regular.ttf')
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  font-family: Karelia;
+  }
+marquee{
+  color: white;
+bottom: 0;
+  z-index: 10;
+  position: absolute;
+  padding: 10px;
+  border-top: solid 1px white;
+  font-family: px-grotesk;
+}
+
+  #container{
+  z-index: 5;
+  position: absolute;
+}
+
+
+
+
+  .div-title{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 50;
+  text-align: center;
+margin-top: 5%;
+}
+
+
+.title{
+width: 50%;
+height: auto;
+z-index: 10;
+margin: auto;
+
+}
+
+.t1{
+  z-index: 10;
+  position: absolute;
+  color: white;
+}
+
+
+.bottom-home{
+  width: 100%;
+  height: 20%;
+  /* justify-content: space-around; */
+  bottom: 0;
+  position: absolute;
+  z-index: 10;
+  text-align: center
+
+  /* display: flex; */
+}
+
+.bottoni{
+  color: white;
+  background-color: black;
+  font-family: Karelia;
+  border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    border-left:none;
+      border-right:none;
+  font-size: 2em;
+padding: 10px;
+display: inline-block;
+margin-left:10%;
+margin-right:10%;
+
+}
+
+.home-icon{
+  position: fixed;
+  width: 10%;
+  height: auto;
+  margin: 0;
+  top:0;
+  left: 0;
+  padding: 10px;
+  z-index: 20;
+}
+
+iframe{
+  z-index: 20;
+  margin-left: auto;
+  border: none;
+  margin-right: auto;
+  position: absolute;
+
+}
+
+.video-container{
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+
+
+}
